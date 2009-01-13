@@ -1,0 +1,4 @@
+Run script/myapp_server.pl to test the application.
+
+The easiest (but not thorough) way to configure this is to edit
+$comp_root in MyApp::View::Seamstress

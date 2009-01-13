@@ -1,0 +1,194 @@
+BODY {
+    background: #ffc0bf; 
+    color: black;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+#body H1, #body H2, #body H3, #body H4, #body H5, #body H6 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px; 
+    text-shadow: 0px 0px 5px red;
+}
+
+#logo {
+    color: #e53;
+    font-size: 6px;
+    padding-bottom: 10px;
+}
+
+#logo .cursor {
+    color: green;
+    text-decoration: blink;
+}
+
+#nav {
+    position: absolute;
+    left: 10px;
+    width: 150px;
+}
+
+#nav DIV.a {
+    border: 1px solid #00696d;
+    margin-bottom: 1em; 
+}
+
+#nav DIV.b {
+    font-size: 15px;
+    background: #00979c;
+    color: white;
+    line-height: 30px;
+    vertical-align: middle;
+    font-weight: bold;
+    text-indent: 5px;
+    border-top: 1px solid #00696d; 
+    border-bottom: 1px solid #00696d;
+}
+
+/*
+#nav DIV.b:HOVER {
+    background: #66b300; 
+    border-top: 1px solid #66b300;
+    border-bottom: 1px solid #66b300;
+}
+#nav DIV.b:HOVE H1 {
+    color: lime
+}
+*/
+
+#nav DIV.b DIV {
+    background: white;
+    font-weight: normal;
+}
+
+#nav H1 {
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#nav A {
+    color: #b30200;
+    display: block;
+    max-height: 30px;
+    text-decoration: none;
+}
+
+#nav A:HOVER {
+    background: #92ff00;
+    color: black;
+}
+
+A:VISITED { -moz-opacity: 0.6 } 
+
+#body {
+    position: absolute;
+    background: #ffc0bf;
+    left: 170px;
+    width: 450px;
+    padding-top: 0px;
+    line-height: 150%;
+}
+
+P, UL {
+    margin-top: 0px;
+}
+
+#body H1, H2, H3, H4, H5, H6 {
+    background: #80fbff; 
+    margin-top: 0px;
+    border: 1px solid #00696d; 
+    padding: 3px;
+    color: white;
+    line-height: 110%;
+}
+
+H3, H4, H5, H6 {
+    margin-bottom: 0px; 
+}
+
+#body PRE, #body TT {
+    background: #66b300; 
+    border: 1px solid #c9ff80; 
+    color: black;
+    padding: 2px; 
+    font-size: 10pt;
+}
+
+#body PRE {
+    line-height: 100%;
+}
+
+A {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+}
+/*
+A:VISITED {
+    color: navy;
+    border-bottom: 1px dashed navy;
+}
+*/
+A.ext {
+    border-bottom: 1px solid black;
+}
+/*
+A.ext:VISITED {
+    color: navy;
+    border-bottom: 1px solid navy;
+}
+*/
+A:HOVER {
+    color: red;
+    border-bottom: 1px dashed red;
+}
+A.ext:HOVER {
+    color: red;
+    border-bottom: 1px solid red;
+}
+#nav A { border-bottom: 0; }
+#nav A:HOVER { border-bottom: 0; }
+/*
+#nav A:VISITED { border-bottom: 0; }
+*/
+
+PRE A, TT A {
+    color: black;
+}
+PRE EM, TT EM {
+    color: black;
+    -moz-opacity: 0.6;
+}
+
+LI {
+    margin-bottom: 1ex; 
+}
+
+.left {
+    float: left; 
+    width: 8em;  
+}
+
+INPUT, TEXTAREA {
+    background: #c9ff80; 
+    color: black;
+    border: 1px solid #66b300;
+    margin-bottom: 2px; 
+}
+
+EM {
+    color: #00696d;
+}
+
+#ad {
+    position: absolute;
+    right: 10px;
+}
+
+#bottom {
+    color: navy;
+    font-size: 80%;
+}

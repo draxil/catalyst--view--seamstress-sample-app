@@ -1,0 +1,12 @@
+name: MyApp
+version: 0.01
+abstract: Catalyst Application
+author: metaperl,,,
+license: perl
+distribution_type: module
+requires:
+  Catalyst: 5.60
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.46
