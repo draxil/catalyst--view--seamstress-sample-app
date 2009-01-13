@@ -56,13 +56,7 @@ sub message : Global {
     my ( $self, $c ) = @_;
 
     # Hello World
-    # $c->response->body( 'hi there' );
-    #    use MyApp::View::Seamstress;
-    #    warn "c_config_pre: ", Dumper($c->config);
-    #    $c->config->{comp_root} = '/ernest/dev/catalyst-simpleapp/root';
-    #    use Data::Dumper;
-    #    warn "c_config_post: ", Dumper($c->config);
-    $c->stash->{template} = 'html::hello_world';
+    $c->stash->{LOOM} = 'html::hello_world';
     $c->stash->{name}     = 'The Heckler';
     $c->stash->{date}     = 'Data Date Datum';
     $c->forward('MyApp::View::Seamstress');

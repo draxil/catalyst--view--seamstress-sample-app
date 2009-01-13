@@ -1,9 +1,6 @@
 package MyApp::View::Seamstress;
 
 use strict;
-#use base 'Catalyst::Base';
-#use base 'Catalyst::View::Seamstress';
-#use base qw(Class::Prototyped HTML::Seamstress);
 use base qw(Catalyst::View::Seamstress HTML::Seamstress);
 use vars qw($comp_root);
 
@@ -32,7 +29,8 @@ __PACKAGE__->config(
     }
 
     $meat_body->replace_content($meat->content_list);
-  } # default sub, only runs if skeleton is true
+  }, # default sub, only runs if skeleton is true
+  fixup => sub{},
  ) ;
 
 use lib $comp_root;
